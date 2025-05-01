@@ -11,3 +11,7 @@ Cross-Architecture Portability: Written in ISO-compliant C, the codebase compile
 Modular Design: Clear separation between model definition, solver interface, and hardware abstraction layers, facilitating easy customization and integration.
 
 Whether you’re targeting large-scale charging stations or embedded controllers for smart grids, Electric-Vehicles-Optimization provides a flexible, high-performance foundation for advanced charging strategies.
+
+This algorithm uses the OSQP solver libraries that are architecture dependent, so they must be compiled using CMake targetting the desired architecture. More information can be found in the following link: 
+
+https://osqp.org/docs/index.html and their github: https://github.com/osqp/osqp.
