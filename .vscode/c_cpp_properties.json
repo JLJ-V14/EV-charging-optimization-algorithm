@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "linux-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/media/juan/Expansion/CU/osqp-1.0.0.beta1/osqp-1.0.0.beta1/include/public",
+                "/media/juan/Expansion/CU/osqp-1.0.0.beta1/osqp-1.0.0.beta1/include/private",
+                "/media/juan/Expansion/CU/osqp-1.0.0.beta1/osqp-1.0.0.beta1/build/include/public",
+                "/media/juan/Expansion/CodigoOptimizacionLinux"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": [
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
